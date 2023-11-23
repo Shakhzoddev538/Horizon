@@ -8,6 +8,7 @@
 body {
     padding-top: 80px;
     padding-bottom: 5px;
+    padding-inline: 50px;
 }
 
 img {
@@ -18,11 +19,6 @@ img {
 button {
     border: none;
     cursor: pointer;
-}
-
-.container {
-    width: 1250px;
-    margin: 0 auto;
 }
 
 .hidden {
@@ -37,7 +33,6 @@ button {
     background-color: whitesmoke;
     padding-inline: 35px;
 }
-
 .right_icons {
     display: flex;
     align-items: center;
@@ -69,86 +64,30 @@ button {
     letter-spacing: -0.176px;
 }
 
-.map {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.map h1 {
+.h2 {
     color: #1E1E1E;
-    font-size: 96px;
+    font-size: 120px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 144px */
-    letter-spacing: -2.208px;
-}
-.map p {
-    color: #1E1E1E;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 60px */
-    letter-spacing: -0.88px;
-}
-.map a {
-    color: #1E1E1E;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 36px */
-    letter-spacing: -0.456px;
-    text-decoration: none;
-}
-
-.map_items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
-.item {
-    width: 26.975px;
-    height: 26.975px;
-    border: 2px solid #FFCD29;
-    border-radius: 50%;
-}
-
-#three {
-    background-color: #FFCD29;
-}
-
-.h1 {
+    line-height: 150%; /* 180px */
+    letter-spacing: -2.64px;
     text-align: center;
-    margin-top: 50px;
 }
 
-.popular_coutry_wrap {
-    margin-top: 35px;
+.countries {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
-
-#country {
-    width: 500px;
-    height: 250px;
-    border: 2px solid wheat;
+.countries_item {
+    border: 2px solid #E6E6E6;
     border-radius: 15px;
-    padding: 20px;      
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px;
 }
-
-.count_left h1 {
+.countries_item h1 {
     color: #1E1E1E;
     font-size: 40px;
     font-style: normal;
@@ -156,35 +95,26 @@ button {
     line-height: 150%; /* 60px */
     letter-spacing: -0.88px;
 }
-.count_left p {
-    color: #1E1E1E; 
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 36px */
-    letter-spacing: -0.456px;
-}
-.count_left a {
+.countries_item p {
     color: #1E1E1E;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%; /* 36px */
     letter-spacing: -0.456px;
-    text-decoration: none;
 }
-
-.count_right {
-    background-color: #80CAFF;
-    width: 208px;
-    height: 208px;
+.country_flag {
+    width: 220px;
+    height: 150px;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
     padding: 15px;
 }
 
 .footer {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 2px solid wheat;
     border-radius: 20px;
     margin-top: 40px;
