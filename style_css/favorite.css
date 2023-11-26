@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding-top: 80px;
+    padding-bottom: 5px;
+    padding-inline: 50px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    height: 75px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-inline: 35px;
+}
+.right_icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.right_icons-search {
+    width: 208px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #E6E6E6;
+    padding-inline: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#one {
+    width: 130px;
+    height: 60px;
+    border: none;
+    background-color: #E6E6E6;
+    outline: none;
+
+    /* style text */
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.176px;
+}
+
+.h2 {
+    color: #1E1E1E;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 180px */
+    letter-spacing: -2.64px;
+    text-align: center;
+}
+
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.countries_item {
+    border: 2px solid #E6E6E6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+.countries_item h1 {
+    color: #1E1E1E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 60px */
+    letter-spacing: -0.88px;
+}
+.countries_item p {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.456px;
+}
+.country_flag {
+    width: 220px;
+    height: 150px;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.footer_links-box h2 {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.456px;
+    margin-bottom: 15px;
+}
+.footer_links-box a, p {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.456px;
+    text-decoration: none;
+}
+
+.heart {
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+}
